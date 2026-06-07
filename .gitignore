@@ -1,0 +1,6 @@
+testData/
+node_modules
+appsettings.json
+backend/bin/
+backend/obj/
+frontend/.angular/
