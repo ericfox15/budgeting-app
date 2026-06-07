@@ -11,8 +11,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular", policy =>
     {
-        policy.WithOrigins("http://localhost:4200")
-              .AllowAnyHeader()
+        policy.WithOrigins("http://localhost:4200", "https://budgeting-app-five-psi.vercel.app")              .AllowAnyHeader()
               .AllowAnyMethod();
     });
 });
